@@ -1,8 +1,8 @@
-nums = []
+num = []
 
 for i in range(10):
-    n = int(input())%42
-    if n not in nums:
-        nums.append(n)
+    a = int(input())%42
+    if a not in num:
+        num.append(a)
 
-print(len(nums))
+print(len(num))
